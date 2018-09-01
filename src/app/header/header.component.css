@@ -1,0 +1,8 @@
+.logo{
+    width: 220px;
+    vertical-align: middle;
+    margin-top: -10px;
+}
+[nz-button] {
+    margin-right: 8px;
+}
