@@ -3,7 +3,10 @@
     text-align: right;
     font-size: 20px;
     font-weight: bold;
+    padding-top: 10px;
     padding-right: 20px;
+    line-height: 80px;
+    height: 80px;
 }
 .search-button{
     padding-left: 30px !important;
@@ -14,13 +17,78 @@
 .search-input-box{
     border-color: #5286bc;
 }
+.search-container{
+    line-height: 80px;
+    height: 80px;
+    padding-top: 10px;
+}
 .my-data{
     text-align: left;
+    padding-top: 10px;
     padding-left: 100px;
+    line-height: 80px;
+    height: 80px;
 }
 .my-data-button{
     border-color: #5286bc;
     border-left-color: rgb(211, 211, 211);
     color: #5286bc;
     background-color: rgb(211, 211, 211);
+}
+.top-tab{
+    color: #4b494f;
+    height: 40px;
+    line-height: 30px;
+    text-align: left;
+}
+.breadcrumb-navigation{
+    background: #e5e4e6;
+    height: 60px;
+    line-height: 10px;
+    text-align: left;
+    padding-left: 40px;
+    padding-top: 15px;
+}
+.breadcrumb{
+    font-size: 16px;
+}
+.sub-search-input-box{
+    width: 20%;
+}
+.subject-filter{
+    background: #ffffff;
+    height: 80px;
+    line-height: 30px;
+    text-align: left;
+    color:rgba(0, 0, 0, 0.45);
+    padding-top: 10px;
+    border-bottom: #e5e4e6 solid 1px;
+}
+.subject-filter-title{
+    color: #5286bc;
+    font-size: 16px;
+    padding-left: 40px;
+}
+.subject-filter-link{
+    color:rgba(0, 0, 0, 0.45);
+    margin-right: 50px;
+}
+.brand-filter{
+    height: 50px;
+    border-bottom: #e5e4e6 dotted 1px;
+}
+.price-filter{
+    height: 50px;
+    border-bottom: 0px;
+}
+.format-filter{
+    height: 50px;
+    border-bottom: #e5e4e6 dotted 1px;
+}
+.filter-end{
+    margin-bottom: 20px;
+}
+.products-counter{
+    padding-top: 30px;
+    color: rgba(0, 0, 0, 0.45);
 }
