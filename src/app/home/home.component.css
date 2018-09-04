@@ -55,39 +55,15 @@
 .sub-search-input-box{
     width: 20%;
 }
-.subject-filter{
+.header-page-control{
     background: #ffffff;
-    height: 80px;
+    height: 50px;
     line-height: 30px;
     text-align: left;
     color:rgba(0, 0, 0, 0.45);
     padding-top: 10px;
-    border-bottom: #e5e4e6 solid 1px;
 }
-.subject-filter-title{
-    color: #5286bc;
-    font-size: 16px;
-    padding-left: 40px;
-}
-.subject-filter-link{
-    color:rgba(0, 0, 0, 0.45);
-    margin-right: 50px;
-}
-.brand-filter{
-    height: 50px;
-    border-bottom: #e5e4e6 dotted 1px;
-}
-.price-filter{
-    height: 50px;
-    border-bottom: 0px;
-}
-.format-filter{
-    height: 50px;
-    border-bottom: #e5e4e6 dotted 1px;
-}
-.filter-end{
-    margin-bottom: 20px;
-}
+
 .products-counter{
     padding-top: 30px;
     color: rgba(0, 0, 0, 0.45);
@@ -115,61 +91,6 @@
     background: #e5e4e6;
     border: 0px;
     margin-right: 5px;
-}
-.product-title{
-    background: #ffffff;
-    height: 50px;
-    line-height: 30px;
-    text-align: left;
-    padding-top: 10px;
-    border-top: #e5e4e6 solid 1px;
-    color: #5286bc;
-    font-size: 16px;
-    padding-left: 40px;
-}
-.product-button-container{
-    background: #ffffff;
-    height: 50px;
-    line-height: 30px;
-    text-align: left;
-    color:rgba(0, 0, 0, 0.45);
-    padding-top: 10px;
-    border-top: #e5e4e6 solid 1px;
-}
-.book-button{
-    margin-right: 5px;
-}
-.button-hidden{
-    visibility: hidden
-}
-.product-info{
-    background: #ffffff;
-    height: 30px;
-    line-height: 10px;
-    text-align: left;
-    padding-top: 10px;
-    color: rgba(0, 0, 0, 0.45);
-    font-size: 12px;
-    padding-left: 40px;
-    font-weight: bold;
-}
-.product-icon{
-    margin-right: 5px;
-}
-.product-info-detail{
-    margin-right: 20px;
-}
-.product-intro{
-    background: #ffffff;
-    height: 100px;
-    line-height: 20px;
-    text-align: left;
-    padding-top: 10px;
-    color: rgba(0, 0, 0, 0.45);
-    font-size: 12px;
-    padding-left: 40px;
-    padding-right: 40px;
-    font-weight: bold;
 }
 .page-control{
     background: #ffffff;

@@ -11,6 +11,9 @@ import zh from '@angular/common/locales/zh';
 import { HomeComponent } from './home/home.component';
 import { RouterModule, Routes } from '@angular/router';
 import { HeaderComponent } from './header/header.component';
+import { ContactAffixComponent } from './contact-affix/contact-affix.component';
+import { ProductComponent } from './product/product.component';
+import { SubjectFilterComponent } from './subject-filter/subject-filter.component';
 
 registerLocaleData(zh);
 
@@ -23,7 +26,10 @@ const appRoutes: Routes = [
   declarations: [
     AppComponent,
     HomeComponent,
-    HeaderComponent
+    HeaderComponent,
+    ContactAffixComponent,
+    ProductComponent,
+    SubjectFilterComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,15 @@
+.rep-suspension-button{
+    position: fixed;
+    right: 10px;
+    top: 300px;
+  }
+  .wechat-suspension-button{
+    position: fixed;
+    right: 10px;
+    top: 350px;
+  }
+  .phone-suspension-button{
+    position: fixed;
+    right: 10px;
+    top: 400px;
+  }

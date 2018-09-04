@@ -1,0 +1,33 @@
+.subject-filter{
+    background: #ffffff;
+    height: 80px;
+    line-height: 30px;
+    text-align: left;
+    color:rgba(0, 0, 0, 0.45);
+    padding-top: 10px;
+    border-bottom: #e5e4e6 solid 1px;
+}
+.subject-filter-title{
+    color: #5286bc;
+    font-size: 16px;
+    padding-left: 40px;
+}
+.subject-filter-link{
+    color:rgba(0, 0, 0, 0.45);
+    margin-right: 50px;
+}
+.brand-filter{
+    height: 50px;
+    border-bottom: #e5e4e6 dotted 1px;
+}
+.price-filter{
+    height: 50px;
+    border-bottom: 0px;
+}
+.format-filter{
+    height: 50px;
+    border-bottom: #e5e4e6 dotted 1px;
+}
+.filter-end{
+    margin-bottom: 20px;
+}

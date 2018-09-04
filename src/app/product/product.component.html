@@ -1,0 +1,22 @@
+<div nz-row>
+  <div nz-col nzSpan="13" nzOffset="4" class="product-title">
+    {{productData.getProductTitle()}}
+  </div>
+  <div nz-col nzSpan="3" class="product-button-container">
+      <button nz-button nzType="danger" class="book-button" [ngClass]="{'button-hidden': !productData.getShowBookButton()}"><i class="anticon anticon-check-square-o"></i>订阅</button>
+      <button nz-button nzType="default"><i class="anticon anticon-heart"></i>收藏</button>
+  </div>
+</div>
+<div nz-row>
+  <div nz-col nzSpan="16" nzOffset="4" class="product-info">
+    <span class="product-info-detail"><i class="anticon anticon-clock-circle-o product-icon"></i> 上架日期： {{productData.getPublishData()}}</span>
+    <span class="product-info-detail"><i class="anticon anticon-tag product-icon"></i> 品牌： {{productData.getBrand()}}</span>
+    <span class="product-info-detail"><i class="anticon anticon-file product-icon"></i> 格式： {{productData.getFormat()}}</span>
+    <span class="product-info-detail"><i class="anticon anticon-sync product-icon"></i> 更新频率： {{productData.getUpdateFrequency()}}</span>
+  </div>
+</div>
+<div nz-row>
+  <div nz-col nzSpan="16" nzOffset="4" class="product-intro">
+    数据描述： {{productData.getDescription()}}
+  </div>
+</div>
