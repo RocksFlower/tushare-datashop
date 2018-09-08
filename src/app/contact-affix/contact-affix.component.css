@@ -1,15 +1,40 @@
 .rep-suspension-button{
-    position: fixed;
-    right: 10px;
-    top: 300px;
+  position: fixed;
+  right: 10px;
+  top: 300px;
+}
+.wechat-suspension-button{
+  position: fixed;
+  right: 10px;
+  top: 350px;
+}
+.phone-suspension-button{
+  position: fixed;
+  right: 10px;
+  top: 400px;
+}
+@media (max-width: 480px){
+  .desktop{
+      display: none;
+  }
+  .rep-suspension-button{
+    z-index: 9999;
+    margin-right: 10px;
   }
   .wechat-suspension-button{
-    position: fixed;
-    right: 10px;
-    top: 350px;
+    z-index: 9999;
+    margin-right: 10px;
   }
   .phone-suspension-button{
-    position: fixed;
-    right: 10px;
-    top: 400px;
+    z-index: 9999;
+    margin-right: 10px; 
   }
+  .button-color{
+    background-color: #FFF8DC;
+  }
+}
+@media (min-width: 480px){
+  .mobile{
+      display: none;
+  }
+}

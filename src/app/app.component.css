@@ -1,34 +1,39 @@
 :host {
-    text-align: center;
-  }
+  text-align: center;
+}
 
-  :host ::ng-deep .ant-layout-header,
-  :host ::ng-deep .ant-layout-footer {
-    background: #4b494f;
-    color: #fff;
-  }
+:host ::ng-deep .ant-layout-header,
+:host ::ng-deep .ant-layout-footer {
+  background: #4b494f;
+  color: #fff;
+}
 
-  :host ::ng-deep .ant-layout-footer {
-    line-height: 1.5;
-  }
+:host ::ng-deep .ant-layout-footer {
+  line-height: 1.5;
+}
 
-  :host ::ng-deep .ant-layout-sider {
-    background: #3ba0e9;
-    color: #fff;
-    line-height: 120px;
-  }
+:host ::ng-deep .ant-layout-sider {
+  background: #3ba0e9;
+  color: #fff;
+  line-height: 120px;
+}
 
-  :host ::ng-deep .ant-layout-content {
-    background: rgb(211, 211, 211);
-    color: #fff;
-    min-height: 120px;
-    line-height: 120px;
-  }
+:host ::ng-deep .ant-layout-content {
+  background: rgb(211, 211, 211);
+  color: #fff;
+  min-height: 120px;
+  line-height: 120px;
+}
 
-  :host > ::ng-deep .ant-layout {
-    margin-bottom: 48px;
-  }
+:host > ::ng-deep .ant-layout {
+  margin-bottom: 48px;
+}
 
-  :host ::ng-deep .ant-layout:last-child {
-    margin: 0;
+:host ::ng-deep .ant-layout:last-child {
+  margin: 0;
+}
+@media (max-width: 480px){
+  :host ::ng-deep .ant-layout-header{
+    padding: 0px;
   }
+}

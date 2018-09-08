@@ -1,4 +1,4 @@
-<div nz-row>
+<div nz-row class="desktop">
   <div nz-col nzSpan="7" class="datashop-title">
       数据商城
   </div>
@@ -12,6 +12,24 @@
   </div>
   <div nz-col nzSpan="8" class="my-data">
       <button nz-button nzSize="large" nzType="default" class="my-data-button"><i class="anticon anticon-user"></i>我的数据</button>
+  </div>
+</div>
+<div nz-row class="mobile">
+  <div nz-col nzSpan="12" class="datashop-title">
+      数据商城
+  </div>
+  <div nz-col nzSpan="12" class="my-data">
+    <button nz-button nzSize="large" nzType="default" class="my-data-button"><i class="anticon anticon-user"></i>我的数据</button>
+  </div>
+</div>
+<div nz-row class="mobile">
+  <div nz-col nzSpan="24" class="search-container">
+      <nz-input-group nzSearch nzSize="large" [nzSuffix]="suffixButton">
+        <input type="text" nz-input placeholder="搜索 数据类型， 如：港股、基金、行情" class="search-input-box">
+      </nz-input-group>
+      <ng-template #suffixButton>
+        <button nz-button nzType="primary" nzSize="large" nzSearch class="search-button"><i class="anticon anticon-search"></i></button>
+      </ng-template>
   </div>
 </div>
 <div nz-row >
@@ -51,13 +69,18 @@
       <button nz-button nzType="default" class="sort-button">上架日期<i class="anticon anticon-arrow-up"></i></button>
   </div>
 </div>
-<div nz-row>
+<div nz-row class="desktop">
   <div nz-col nzSpan="13" nzOffset="4" class="header-page-control">
   </div>
   <div nz-col nzSpan="3" class="header-page-control">
       <nz-pagination [nzPageIndex]="1" [nzTotal]="270" nzSimple></nz-pagination>
   </div>
 </div>
+<div nz-row class="mobile">
+    <div nz-col nzSpan="24" class="header-page-control">
+        <nz-pagination [nzPageIndex]="1" [nzTotal]="270" nzSimple></nz-pagination>
+    </div>
+  </div>
 
 <app-product *ngFor="let productData of productDataList" [productData]="productData"></app-product>
 

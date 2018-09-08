@@ -7,13 +7,25 @@
       <button nz-button nzType="default"><i class="anticon anticon-heart"></i>收藏</button>
   </div>
 </div>
-<div nz-row>
+<div nz-row class="desktop">
   <div nz-col nzSpan="16" nzOffset="4" class="product-info">
     <span class="product-info-detail"><i class="anticon anticon-clock-circle-o product-icon"></i> 上架日期： {{productData.getPublishData()}}</span>
     <span class="product-info-detail"><i class="anticon anticon-tag product-icon"></i> 品牌： {{productData.getBrand()}}</span>
     <span class="product-info-detail"><i class="anticon anticon-file product-icon"></i> 格式： {{productData.getFormat()}}</span>
     <span class="product-info-detail"><i class="anticon anticon-sync product-icon"></i> 更新频率： {{productData.getUpdateFrequency()}}</span>
   </div>
+</div>
+<div nz-row class="mobile">
+  <div nz-col nzSpan="24" class="product-info">
+    <span class="product-info-detail-left"><i class="anticon anticon-clock-circle-o product-icon"></i> 上架日期： {{productData.getPublishData()}}</span>
+    <span class="product-info-detail-right"><i class="anticon anticon-file product-icon"></i> 格式： {{productData.getFormat()}}</span>
+  </div>
+</div>
+<div nz-row class="mobile">
+  <div nz-col nzSpan="24" class="product-info">
+      <span class="product-info-detail-left"><i class="anticon anticon-tag product-icon"></i> 品牌： {{productData.getBrand()}}</span>
+      <span class="product-info-detail-right"><i class="anticon anticon-sync product-icon"></i> 更新频率： {{productData.getUpdateFrequency()}}</span>
+    </div>
 </div>
 <div nz-row>
   <div nz-col nzSpan="16" nzOffset="4" class="product-intro">

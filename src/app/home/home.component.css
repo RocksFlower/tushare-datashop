@@ -100,3 +100,71 @@
     padding-top: 10px;
     margin-bottom: 50px;
 }
+
+@media (max-width: 480px){
+    .desktop{
+        display: none;
+    }
+    .datashop-title{
+        text-align: left;
+        font-size: 25px;
+        font-weight: bold;
+        padding-left: 15px;
+        line-height: 30px;
+        height: 30px;
+    }
+    .my-data{
+        text-align: left;
+        padding-top: 5px;
+        padding-left: 50px;
+        line-height: 30px;
+        height: 30px;
+    }
+    .search-container{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .top-tab{
+        margin-left: 15px;
+        width: 100%;
+    }
+    .breadcrumb-navigation{
+        margin-left: 15px;
+        padding-left: 15px;
+        margin-right: 15px;
+    } 
+    .products-counter{
+        display: none;
+    }
+    .breadcrumb-navigation{
+        width: 345px;
+    }
+    .sub-search-input-box{
+        width: 155px;
+    }
+    .sort-list-title{
+        margin-left: 15px;
+        padding-left: 15px;
+        width: 100px;
+    }
+    .sort-list-type{
+        width: 245px;
+    }
+    .header-page-control{
+        width: 345px;
+        margin-left: 15px;
+        height: 40px;
+        line-height: 15px;
+        text-align: right;
+    }
+    .page-control{
+        margin-left: 15px;
+        padding-left: 15px;
+        width: 345px;
+    }
+}
+@media (min-width: 480px){
+    .mobile{
+        display: none;
+    }
+}

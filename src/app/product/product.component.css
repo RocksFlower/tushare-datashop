@@ -53,3 +53,39 @@
     padding-right: 40px;
     font-weight: bold;
 }
+@media (max-width: 480px){
+    .desktop{
+        display: none;
+    }
+    .product-title{
+        margin-left: 15px;
+        padding-left: 15px;
+        width: 170px;
+    }
+    .product-button-container{
+        width: 175px;
+    }
+    .product-info{
+        margin-left: 15px;
+        padding-left: 15px;
+        width: 345px;
+    }
+    .product-info-detail-left{
+        width: 170px;
+        display: inline-block;
+    }
+    .product-info-detail-right{
+        display: inline-block;
+    }
+    .product-intro{
+        margin-left: 15px;
+        padding-left: 15px;
+        width: 345px;
+        height: auto;
+    }
+}
+@media (min-width: 480px){
+    .mobile{
+        display: none;
+    }
+}

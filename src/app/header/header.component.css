@@ -6,3 +6,8 @@
 [nz-button] {
     margin-right: 8px;
 }
+@media (max-width: 480px){
+    .logo{
+        margin-left: -20px;
+    }
+}
