@@ -1,20 +1,30 @@
 .subject-filter{
     background: #ffffff;
-    height: 80px;
+    height: auto;
     line-height: 30px;
     text-align: left;
     color:rgba(0, 0, 0, 0.45);
     padding-top: 10px;
     border-bottom: #e5e4e6 solid 1px;
+    overflow-wrap: break-word;
+    padding-right: 10%;
 }
 .subject-filter-title{
     color: #5286bc;
     font-size: 16px;
     padding-left: 40px;
+    padding-right: 0%;
+}
+.subject-filter-display{
+    display: flex;
+}
+.subject-filter-background {
+    background: #ffffff;
 }
 .subject-filter-link{
     color:rgba(0, 0, 0, 0.45);
     margin-right: 50px;
+    word-break: keep-all;
 }
 .brand-filter{
     height: 50px;
