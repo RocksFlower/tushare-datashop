@@ -8,6 +8,7 @@
     border-bottom: #e5e4e6 solid 1px;
     overflow-wrap: break-word;
     padding-right: 10%;
+    padding-bottom: 10px;
 }
 .subject-filter-title{
     color: #5286bc;
@@ -25,18 +26,6 @@
     color:rgba(0, 0, 0, 0.45);
     margin-right: 50px;
     word-break: keep-all;
-}
-.brand-filter{
-    height: 50px;
-    border-bottom: #e5e4e6 dotted 1px;
-}
-.price-filter{
-    height: 50px;
-    border-bottom: 0px;
-}
-.format-filter{
-    height: 50px;
-    border-bottom: #e5e4e6 dotted 1px;
 }
 .filter-end{
     margin-bottom: 20px;
