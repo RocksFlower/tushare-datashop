@@ -37,7 +37,7 @@
       研报 | 沪港通 | 电商 | 股票 | 期权 | 主题 | 新闻
   </div>
 </div>
-<div nz-row >
+<div nz-row class="desktop">
   <div nz-col nzSpan="13" nzOffset="4" class="breadcrumb-navigation">
     <nz-breadcrumb nzSeparator=">">
       <nz-breadcrumb-item class="breadcrumb">
@@ -55,6 +55,23 @@
   </div>
   <div nz-col nzSpan="3" class="breadcrumb-navigation products-counter">
     共267个相关数据商品
+  </div>
+</div>
+<div nz-row class="mobile">
+  <div nz-col nzSpan="16" nzOffset="4" class="breadcrumb-navigation">
+    <nz-breadcrumb nzSeparator=">">
+      <nz-breadcrumb-item class="breadcrumb">
+        全部
+      </nz-breadcrumb-item>
+      <nz-breadcrumb-item class="breadcrumb">
+        <a>沪深股票</a>
+      </nz-breadcrumb-item>
+      <nz-breadcrumb-item>
+        <nz-input-group nzSuffixIcon="anticon anticon-search" class="sub-search-input-box">
+          <input type="text" nz-input placeholder="当前条件下搜索" [nzSize]="small">
+        </nz-input-group>
+      </nz-breadcrumb-item>
+    </nz-breadcrumb>
   </div>
 </div>
 

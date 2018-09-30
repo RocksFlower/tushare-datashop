@@ -30,6 +30,17 @@
 .filter-end{
     margin-bottom: 20px;
 }
+@media (max-width: 1024px){
+    .subject-filter{
+        width: 75%;
+    }
+    .subject-filter-title{
+        padding-left: 15px;
+        margin-left: 5%;
+        width: 15%;
+        line-height: 30px;
+    }
+}
 @media (max-width: 480px){
     .desktop{
         display: none;
@@ -40,8 +51,8 @@
     }
     .subject-filter-title{
         padding-left: 15px;
-        margin-left: 15px;
-        width: 345px;
+        margin-left: 5%;
+        width: 90%;
         height: 50px;
         line-height: 30px;
     }

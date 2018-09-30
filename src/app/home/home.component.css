@@ -100,7 +100,40 @@
     padding-top: 10px;
     margin-bottom: 50px;
 }
-
+@media (max-width: 1024px){
+    .breadcrumb-navigation{
+        margin-left: 5%;
+        padding-left: 15px;
+        width: 60%;
+    }
+    .products-counter{
+        margin-left: 0%;
+        width: 30%;
+        margin-right: 5%;
+    }
+    .sort-list-title{
+        margin-left: 5%;
+        padding-left: 15px;
+        width: 15%;
+    }
+    .sort-list-type{
+        width: 75%;
+    }
+    .header-page-control{
+        width: 90%;
+        margin-left: 5%;
+        height: auto;
+        padding-bottom: 10px;
+        padding-top: 0px;
+        line-height: 15px;
+        text-align: right;
+    }
+    .page-control{
+        margin-left: 5%;
+        padding-left: 15px;
+        width: 90%;
+    }
+}
 @media (max-width: 480px){
     .desktop{
         display: none;
@@ -109,60 +142,64 @@
         text-align: left;
         font-size: 25px;
         font-weight: bold;
-        padding-left: 15px;
+        padding-left: 5%;
         line-height: 30px;
         height: 30px;
     }
     .my-data{
-        text-align: left;
+        text-align: right;
         padding-top: 5px;
-        padding-left: 50px;
+        padding-left: 0px;
+        padding-right: 5%;
         line-height: 30px;
         height: 30px;
     }
     .search-container{
-        padding-left: 15px;
-        padding-right: 15px;
+        padding-left: 5%;
+        padding-right: 5%;
     }
     .top-tab{
-        margin-left: 15px;
+        margin-left: 5%;
         width: 100%;
     }
     .breadcrumb-navigation{
-        margin-left: 15px;
+        margin-left: 5%;
         padding-left: 15px;
-        margin-right: 15px;
-    } 
+        margin-right: 5%;
+        width: 90%;
+    }
+    .breadcrumb{
+        width: 20%;
+    }
     .products-counter{
         display: none;
     }
-    .breadcrumb-navigation{
-        width: 345px;
-    }
     .sub-search-input-box{
-        width: 155px;
+        width: 45%;
     }
     .sort-list-title{
-        margin-left: 15px;
+        margin-left: 5%;
         padding-left: 15px;
-        width: 100px;
+        width: 30%;
     }
     .sort-list-type{
-        width: 245px;
+        width: 60%;
     }
     .header-page-control{
-        width: 345px;
-        margin-left: 15px;
+        width: 90%;
+        margin-left: 5%;
         height: 40px;
         line-height: 15px;
         text-align: right;
+        padding-top: 10px;
     }
     .page-control{
-        margin-left: 15px;
+        margin-left: 5%;
         padding-left: 15px;
-        width: 345px;
+        width: 90%;
     }
 }
+
 @media (min-width: 480px){
     .mobile{
         display: none;
